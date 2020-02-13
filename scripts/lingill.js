@@ -44,5 +44,5 @@ const sum = async function (totalNum, tipNum, taxNum){
     totalSum2 = parseFloat(tipNum)
     totalSum3 = parseFloat(taxNum)
     totalSum = totalSum1 + totalSum2 + totalSum3;
-    return totalSum;
+    return totalSum.toFixed(2);
 }

@@ -8,22 +8,27 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.11.0/css/mdb.min.css" rel="stylesheet">
-    <!--<link rel="stylesheet" href ="css/lin.css"> -->
+    <link rel="stylesheet" href ="lin.css">
+    <title>Tip App</title>
 
 </head>
 <body>
-    <main>
+    <main >
+        <h1>Maitre d</h1>
+        <hr>
+        <!-- total-->
         <label for="total">Total:</label>
-        <input id="total" type="number" >
+        <input  id="total" type="number" placeholder="Enter a Number" >
         <br>
-       <aside> <label for="rate">Rate:</label>
-        <input id="rate" type="number">
-        </aside>
-        <br>
-        <button id="sumation">Calculate</button>
-        <p id="tip">Tip: </p>
+        <!-- rate-->
+        <div class =rateholder><label for="rate">Rate:</label>
+        <input class =input id="rate" type="number" placeholder="Enter a Number">
+        </div>
+        <div class = tipholder><p id="tip">Tip: </p></div>
         <p id= "tax">Tax: </p>
         <p id="calcuation">Grand total:</p>
+        <button class =button id="sumation">Calculate</button>
+        <hr>
     </main>
 
 

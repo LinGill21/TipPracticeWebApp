@@ -1,0 +1,27 @@
+main{
+padding: 30pt;
+text-align: center;
+color:black;
+}
+hr{
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+.button{
+    /*https://www.w3schools.com/css/css3_buttons.asp*/
+    background-color: lightgray;
+    padding: 10pt 25pt;
+    text-align: center;
+}
+/* this is the rate box*/
+.input{
+  width:5%;  
+}
+/*this is ratebox and tag */
+.rateholder{
+    padding-right: 20pt;
+    float:right;
+}
+
