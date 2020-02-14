@@ -15,13 +15,13 @@ btnCalculate.onclick = async function(){
     const rateNum =parseInt(ratestr);
     //tip
     const tipNum = await tip(totalNum, rateNum);
-    tipHold.innerHTML = "Tip: "+tipNum;
+    tipHold.innerHTML = "Tip: $"+tipNum;
     //tax
     const taxNum = await tax( totalNum);
-    taxhold.innerHTML = "Tax: "+taxNum;
+    taxhold.innerHTML = "Tax: $"+taxNum;
     // sum
     const grand = await sum(totalNum, tipNum, taxNum);
-    calculationHold.innerHTML = "Grand total: "+grand;
+    calculationHold.innerHTML = "Grand total: $"+grand;
 }
 //found .fixed() at https://www.w3schools.com/jsref/jsref_tofixed.asp
 //tip calc
